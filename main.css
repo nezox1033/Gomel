@@ -1,0 +1,164 @@
+body{
+    width: 1920px;
+    background: #212121;
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+    color: #AFBCC8;
+    font-family: 'Inter';
+}
+
+header{
+    position: relative;
+    width: 1920px;
+    left: 0px;
+    top: 0px;
+    background: #4A6C8C;
+}
+
+footer{
+    width: 1920px;
+    height: 110px;
+    margin: 0;
+    padding: 10px 0 0 0;
+    background: #4A6C8C;
+
+}
+
+.A1{
+    position: relative;
+    width: 1920px;
+    left: 0px;
+    background: #334C63;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.choosen{
+    left: 0px;
+    background: #4A6C8C;
+}
+
+.A3{
+    width: 480px;
+    height: 79px;
+    padding-top: 30px;
+    text-align: center;
+    color: #DFF0FF;
+    font-size: 15px;
+    line-height: 48px;
+    cursor: pointer;
+    user-select: none;
+}
+
+h1{
+    margin: 0;
+}
+
+.C1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #DFF0FF;
+}
+
+.A3:hover{
+    background-color: #3e5b77;
+}
+
+.A3:active{
+    background-color: #4f7394;
+    font-size: 14px;
+}
+
+.image1{
+    margin: 83px 0 0 80px;
+    height: 622px;
+    width: 831px;
+    border-radius: 0px;
+}
+
+.title_text{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;  
+    margin: 185px 140px 0 0 ;
+    float: right;
+    width: 761px;
+}
+
+.main_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 58px;
+    width: 1700px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.history_text{
+    text-align: justify;
+    margin: 20px 50px;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+.admin_text{
+    text-align: justify;
+    margin: 20px 100px;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+.admin_image{
+    margin: 20px 120px;
+}
+
+.admin_href{
+    text-decoration: underline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #DFF0FF;
+}
+
+.area{
+    display: flex;
+}
+
+.area_text{
+    float: left;
+    height: fit-content;
+    margin: 80px;
+    font-size: 25px;
+}
+
+.area_image{
+    float: right;
+    margin: 130px;
+    width: 1100px;
+    height: 900px;
+    background-image: url(./326504316.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.area_href{
+    text-decoration: underline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    color: #DFF0FF;
+}
